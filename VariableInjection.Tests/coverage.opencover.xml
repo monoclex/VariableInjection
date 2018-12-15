@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="101" visitedSequencePoints="101" numBranchPoints="101" visitedBranchPoints="101" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="6" numClasses="7" visitedMethods="18" numMethods="18" />
+  <Modules>
+    <Module hash="D1924456-9BA3-4AD5-96B3-7F4DEB1C9C12">
+      <ModulePath>VariableInjection.dll</ModulePath>
+      <ModuleTime>2018-12-15T08:02:29</ModuleTime>
+      <ModuleName>VariableInjection</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\SirJosh3917\source\repos\VariableInjection\VariableInjection\Class1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>VariableInjection.InjectAttribute</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 VariableInjection.InjectAttribute::get_InjectId()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="68" upsid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="20" ec="1" el="20" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void VariableInjection.InjectAttribute::.ctor(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="86" upsid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="86" upsid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="86" upsid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="86" upsid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="15" ec="1" el="18" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>VariableInjection.InjectionMember</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Type VariableInjection.InjectionMember::get_MemberType()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="33" upsid="31" ordinal="0" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="31" ec="1" el="31" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Action`2&lt;System.Object,System.Object&gt; VariableInjection.InjectionMember::get_SetDelegate()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="33" upsid="32" ordinal="0" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="32" ec="1" el="32" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void VariableInjection.InjectionMember::.ctor(System.Reflection.MemberInfo)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="33" upsid="25" ordinal="0" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="26" ordinal="1" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="27" ordinal="2" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="28" ordinal="3" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="29" ordinal="4" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="25" ec="1" el="29" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>VariableInjection.InjectionBuilder`1</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void VariableInjection.InjectionBuilder`1::AddMember(System.Reflection.MemberInfo)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="31" upsid="45" ordinal="0" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="31" upsid="46" ordinal="1" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="31" upsid="47" ordinal="2" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="45" ec="1" el="47" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void VariableInjection.InjectionBuilder`1::AddMembers(System.Collections.Generic.IEnumerable`1&lt;System.Reflection.MemberInfo&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" upsid="50" ordinal="0" sl="50" sc="1" el="50" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" upsid="51" ordinal="1" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" upsid="52" ordinal="2" sl="52" sc="1" el="52" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" upsid="51" ordinal="0" path="0" offset="14" offsetend="16" sl="51" fileid="1" />
+                <BranchPoint vc="2" upsid="51" ordinal="1" path="1" offset="14" offsetend="39" sl="51" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="3" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="50" ec="1" el="52" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>VariableInjection.Injector VariableInjection.InjectionBuilder`1::Build()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="12" upsid="55" ordinal="0" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="56" ordinal="1" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="58" ordinal="2" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="59" ordinal="3" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="55" ec="1" el="59" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void VariableInjection.InjectionBuilder`1::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="14" upsid="37" ordinal="0" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="14" upsid="38" ordinal="1" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="14" upsid="39" ordinal="2" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="13" upsid="40" ordinal="3" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" upsid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="37" ec="1" el="40" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="22" visitedSequencePoints="22" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>VariableInjection.Injector</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void VariableInjection.Injector::Inject(System.Object,System.Object[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="12" upsid="82" ordinal="0" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="90" upsid="83" ordinal="1" sl="83" sc="1" el="83" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="27" upsid="84" ordinal="2" sl="84" sc="1" el="84" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="27" upsid="85" ordinal="3" sl="85" sc="1" el="85" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="27" upsid="87" ordinal="4" sl="87" sc="1" el="87" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="27" upsid="89" ordinal="5" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="21" upsid="90" ordinal="6" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="21" upsid="91" ordinal="7" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="21" upsid="92" ordinal="8" sl="92" sc="1" el="92" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="27" upsid="93" ordinal="9" sl="93" sc="1" el="93" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="94" ordinal="10" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="27" upsid="83" ordinal="3" path="1" offset="76" offsetend="8" sl="83" fileid="1" />
+                <BranchPoint vc="21" upsid="89" ordinal="0" path="0" offset="46" offsetend="48" sl="89" fileid="1" />
+                <BranchPoint vc="27" upsid="89" ordinal="1" path="1" offset="46" offsetend="67" sl="89" fileid="1" />
+                <BranchPoint vc="12" upsid="83" ordinal="2" path="0" offset="76" offsetend="78" sl="83" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="11" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="82" ec="1" el="94" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void VariableInjection.Injector::.ctor(VariableInjection.InjectionMember[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="12" upsid="64" ordinal="0" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="65" ordinal="1" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="66" ordinal="2" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="67" ordinal="3" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="90" upsid="69" ordinal="4" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="70" ordinal="5" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="71" ordinal="6" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="73" ordinal="7" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="74" ordinal="8" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="75" ordinal="9" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="12" upsid="76" ordinal="10" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="33" upsid="69" ordinal="1" path="1" offset="86" offsetend="40" sl="69" fileid="1" />
+                <BranchPoint vc="12" upsid="69" ordinal="0" path="0" offset="86" offsetend="88" sl="69" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="11" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="64" ec="1" el="76" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="29" visitedSequencePoints="29" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>VariableInjection.InjectionBuilderExtensions</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>VariableInjection.InjectionBuilder`1&lt;T&gt; VariableInjection.InjectionBuilderExtensions::Map(VariableInjection.InjectionBuilder`1&lt;T&gt;,System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;T,TReturn&gt;&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="3" upsid="102" ordinal="0" sl="102" sc="1" el="102" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="103" ordinal="1" sl="103" sc="1" el="103" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="105" ordinal="2" sl="105" sc="1" el="105" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="107" ordinal="3" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="108" ordinal="4" sl="108" sc="1" el="108" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="102" ec="1" el="108" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>VariableInjection.InjectionBuilder`1&lt;T&gt; VariableInjection.InjectionBuilderExtensions::MapAll(VariableInjection.InjectionBuilder`1&lt;T&gt;,System.Func`2&lt;System.Collections.Generic.IEnumerable`1&lt;System.Reflection.MemberInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;System.Reflection.MemberInfo&gt;&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="9" upsid="111" ordinal="0" sl="111" sc="1" el="111" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="116" ordinal="1" sl="116" sc="1" el="116" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="117" ordinal="2" sl="117" sc="1" el="117" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="118" ordinal="3" sl="118" sc="1" el="118" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="119" ordinal="4" sl="119" sc="1" el="119" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="120" ordinal="5" sl="120" sc="1" el="120" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="121" ordinal="6" sl="121" sc="1" el="121" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="123" ordinal="7" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="124" ordinal="8" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="125" ordinal="9" sl="125" sc="1" el="125" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="126" ordinal="10" sl="126" sc="1" el="126" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="87" upsid="128" ordinal="11" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="30" upsid="129" ordinal="12" sl="129" sc="1" el="129" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="30" upsid="130" ordinal="13" sl="130" sc="1" el="130" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="30" upsid="131" ordinal="14" sl="131" sc="1" el="131" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="133" ordinal="15" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="9" upsid="134" ordinal="16" sl="134" sc="1" el="134" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="9" upsid="123" ordinal="0" path="0" offset="52" offsetend="54" sl="123" fileid="1" />
+                <BranchPoint vc="9" upsid="123" ordinal="1" path="1" offset="52" offsetend="64" sl="123" fileid="1" />
+                <BranchPoint vc="30" upsid="128" ordinal="3" path="1" offset="97" offsetend="74" sl="128" fileid="1" />
+                <BranchPoint vc="9" upsid="128" ordinal="2" path="0" offset="97" offsetend="99" sl="128" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="17" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="111" ec="1" el="134" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>VariableInjection.InjectionBuilder`1&lt;T&gt; VariableInjection.InjectionBuilderExtensions::MapAttributed(VariableInjection.InjectionBuilder`1&lt;T&gt;,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="18" upsid="137" ordinal="0" sl="137" sc="1" el="137" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="62" upsid="138" ordinal="1" sl="138" sc="1" el="138" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="62" upsid="139" ordinal="2" sl="139" sc="1" el="139" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="146" upsid="140" ordinal="3" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="146" upsid="141" ordinal="4" sl="141" sc="1" el="141" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="62" upsid="142" ordinal="5" sl="142" sc="1" el="142" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="6" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="137" ec="1" el="142" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="1" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void VariableInjection.InjectionBuilderExtensions::.cctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" upsid="99" ordinal="0" sl="99" sc="1" el="99" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" upsid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="99" ec="1" el="99" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="24" visitedSequencePoints="24" numBranchPoints="12" visitedBranchPoints="12" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>VariableInjection.Helpers</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Reflection.MemberInfo VariableInjection.Helpers::GetMemberInfo(System.Linq.Expressions.Expression`1&lt;System.Func`2&lt;TSource,TProperty&gt;&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="3" upsid="150" ordinal="0" sl="150" sc="1" el="150" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="151" ordinal="1" sl="151" sc="1" el="151" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="3" upsid="153" ordinal="2" sl="153" sc="1" el="153" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="154" ordinal="3" sl="154" sc="1" el="154" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" upsid="156" ordinal="4" sl="156" sc="1" el="156" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" upsid="158" ordinal="5" sl="158" sc="1" el="158" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" upsid="159" ordinal="6" sl="159" sc="1" el="159" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="160" ordinal="7" sl="160" sc="1" el="160" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="162" ordinal="8" sl="162" sc="1" el="162" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" upsid="163" ordinal="9" sl="163" sc="1" el="163" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" upsid="153" ordinal="0" path="0" offset="30" offsetend="32" sl="153" fileid="1" />
+                <BranchPoint vc="2" upsid="153" ordinal="1" path="1" offset="30" offsetend="59" sl="153" fileid="1" />
+                <BranchPoint vc="1" upsid="158" ordinal="2" path="0" offset="78" offsetend="80" sl="158" fileid="1" />
+                <BranchPoint vc="1" upsid="158" ordinal="3" path="1" offset="78" offsetend="97" sl="158" fileid="1" />
+                <BranchPoint vc="1" upsid="158" ordinal="4" path="0" offset="102" offsetend="104" sl="158" fileid="1" />
+                <BranchPoint vc="1" upsid="158" ordinal="5" path="1" offset="102" offsetend="127" sl="158" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="10" upsid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="150" ec="1" el="163" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Type VariableInjection.Helpers::TypeOf(System.Reflection.MemberInfo)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="33" upsid="166" ordinal="0" sl="166" sc="1" el="166" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="167" ordinal="1" sl="167" sc="1" el="167" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="10" upsid="168" ordinal="2" sl="168" sc="1" el="168" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="23" upsid="169" ordinal="3" sl="169" sc="1" el="169" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="33" upsid="170" ordinal="4" sl="170" sc="1" el="170" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="10" upsid="167" ordinal="0" path="0" offset="14" offsetend="16" sl="167" fileid="1" />
+                <BranchPoint vc="23" upsid="167" ordinal="1" path="1" offset="14" offsetend="25" sl="167" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="5" upsid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="166" ec="1" el="170" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="1" branchCoverage="1" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="1" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 VariableInjection.Helpers::IndexOf(T[],T)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="27" upsid="174" ordinal="0" sl="174" sc="1" el="174" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="122" upsid="175" ordinal="1" sl="175" sc="1" el="175" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="55" upsid="176" ordinal="2" sl="176" sc="1" el="176" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="55" upsid="177" ordinal="3" sl="177" sc="1" el="177" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="21" upsid="178" ordinal="4" sl="178" sc="1" el="178" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="21" upsid="179" ordinal="5" sl="179" sc="1" el="179" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="34" upsid="181" ordinal="6" sl="181" sc="1" el="181" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="6" upsid="183" ordinal="7" sl="183" sc="1" el="183" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="27" upsid="184" ordinal="8" sl="184" sc="1" el="184" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="55" upsid="175" ordinal="3" path="1" offset="48" offsetend="5" sl="175" fileid="1" />
+                <BranchPoint vc="21" upsid="177" ordinal="0" path="0" offset="28" offsetend="30" sl="177" fileid="1" />
+                <BranchPoint vc="34" upsid="177" ordinal="1" path="1" offset="28" offsetend="35" sl="177" fileid="1" />
+                <BranchPoint vc="6" upsid="175" ordinal="2" path="0" offset="48" offsetend="50" sl="175" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="9" upsid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="174" ec="1" el="184" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="0" branchCoverage="1" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="0" />
+          <FullName>VariableInjection.InjectionBuilderExtensions/&lt;&gt;c__DisplayClass3_0`1</FullName>
+          <Methods />
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
