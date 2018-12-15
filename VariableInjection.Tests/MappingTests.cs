@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
+
 using System;
-using System.Collections.Generic;
-using System.Text;
+
 using Xunit;
 
 namespace VariableInjection.Tests
@@ -11,6 +11,7 @@ namespace VariableInjection.Tests
 		public class InjectMe
 		{
 			public string PublicProperty { get; set; }
+
 			public int PublicMethod() => 1;
 		}
 

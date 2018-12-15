@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 
 namespace VariableInjection.Demo
 {
@@ -16,7 +14,7 @@ namespace VariableInjection.Demo
 				injector.Inject(this, stringData, key);
 			}
 
-			[Inject] private int _secretKey;
+			[Inject] private readonly int _secretKey;
 			[Inject] public string StringData { get; set; }
 
 			public int GetSecretKey()
@@ -41,10 +39,7 @@ namespace VariableInjection.Demo
 	{
 		public class InjectMe
 		{
-			public InjectMe(Injector injector, string stringData, int key)
-			{
-				injector.Inject(this, stringData, key);
-			}
+			public InjectMe(Injector injector, string stringData, int key) => injector.Inject(this, stringData, key);
 
 			// 'StringA' and 'Int' belong to injector 1
 			// 'StringB' and 'Int' belong to injector 2
@@ -83,14 +78,12 @@ namespace VariableInjection.Demo
 	{
 		public class InjectMe
 		{
-			public InjectMe(Injector injector, string stringData, int key)
-			{
-				injector.Inject(this, stringData, key);
-			}
+			public InjectMe(Injector injector, string stringData, int key) => injector.Inject(this, stringData, key);
 
 			// both of these private - unaccessible to the public
-			[Inject] private string _secret;
-			[Inject] private int _secretKey;
+			[Inject] private readonly string _secret;
+
+			[Inject] private readonly int _secretKey;
 
 			public override string ToString()
 				=> $"Secret String: {_secret}\r\nSecret Key: {_secretKey}";

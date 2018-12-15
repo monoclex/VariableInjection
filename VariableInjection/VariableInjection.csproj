@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/SirJosh3917/VariableInjection</RepositoryUrl>
     <Copyright>SirJosh3917 (C) 2018-2019</Copyright>
     <PackageLicenseUrl>https://github.com/SirJosh3917/VariableInjection/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,7 +1,5 @@
 ﻿using FluentAssertions;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 using Xunit;
 
 namespace VariableInjection.Tests
@@ -10,10 +8,10 @@ namespace VariableInjection.Tests
 	{
 		public class InjectMe
 		{
-			[Inject(), Inject(1),            Inject(3), Inject(4)] public string String;
-			[Inject(),            Inject(2), Inject(3)           ] public int Int;
-			[Inject(), Inject(1),            Inject(3), Inject(4)] public char Char;
-			[Inject(),            Inject(2),            Inject(4)] public float Float;
+			[Inject(), Inject(1), Inject(3), Inject(4)] public string String;
+			[Inject(), Inject(2), Inject(3)] public int Int;
+			[Inject(), Inject(1), Inject(3), Inject(4)] public char Char;
+			[Inject(), Inject(2), Inject(4)] public float Float;
 		}
 
 		public Injector GetInjector(int injectId = 0)
